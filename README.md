@@ -1,4 +1,4 @@
-# Solver
+# Solver :open_book:
 An implementation to a solver that gets a list of variables with a range of definitions and constraints, and finds all possible solutions using **[Lex](https://en.wikipedia.org/wiki/Lexical_analysis) & [Yacc](https://en.wikipedia.org/wiki/Yacc) & [C](https://en.wikipedia.org/wiki/C_(programming_language))**. <br /><br />
 **For example the next pair of input and output:** <br />
 
