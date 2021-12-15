@@ -2,7 +2,7 @@
 An implementation to a solver that gets a list of variables with a range of definitions and constraints, and finds all possible solutions. 
 For example the next pair of input and output:
 
-`var x : 0 .. 9;`          `x=0, y=3`<br />
+`var x : 0 .. 9;`<space><space><space><space><space><space><space><space><space><space>`x=0, y=3`<br />
 `var y : 0 .. 9;`   ===>   `x=1, y=2`<br />
 `x + y is 3;`              `x=3, y=0`<br />
 `x - y is not 1;`<br />
