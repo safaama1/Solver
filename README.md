@@ -11,10 +11,10 @@ The input of the solver is organized as follows:
 1. The input file contains 0 or more commands, with each command being a variable definition or constraint.
 2. Variable definition is in the following format:
 `var <variable_name> “:” <range_from> “..” <range_to> “;”`
-  - `<variable_name>` is one letter in the lower case, i.e. [a-z].
+  - `<variable_name>` is one letter in the lower case, i.e. `[a-z]`.
   - The definition range of the variable is all integers in the defined range including the first and last value.
-  - The two ends of the definition range are non-negative integers [0-9]+ (`<range_from>` and `<range_to>`)
+  - The two ends of the definition range are non-negative integers `[0-9]+` (`<range_from>` and `<range_to>`)
 3. The constraint has the following format:
 `<expression> (is | is not) <number> “;”`
   - `<expression>` is some expression with the addition, subtraction and multiplication operations (+, -, *), with the usual order of operations (multiplication before addition         and subtraction), with left associativity, and with the option to put round parentheses (). 
-    The atoms of the expression are non-negative integers + [0-9], and variable names [a-z]. 
+    The atoms of the expression are non-negative integers `[0-9]+`, and variable names `[a-z]`. 
