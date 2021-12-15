@@ -7,7 +7,7 @@ An implementation to a solver that gets a list of variables with a range of defi
 `x + y is 3;`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`x=3, y=0`<br />
 `x - y is not 1;`<br />
 <br />
-The input of the solver is organized as follows:
+**The input of the solver is organized as follows:**<br />
 1. The input file contains 0 or more commands, with each command being a variable definition or constraint.
 2. Variable definition is in the following format:
 `var <variable_name> “:” <range_from> “..” <range_to> “;”`
