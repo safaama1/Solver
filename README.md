@@ -7,7 +7,7 @@ An implementation to a solver that gets a list of variables with a range of defi
 `x + y is 3;`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`x=3, y=0`<br />
 `x - y is not 1;`<br />
 <br />
-**The input of the solver is organized as follows:**<br />
+:arrow_right: **The input of the solver is organized as follows:**<br />
 1. The input file contains 0 or more commands, with each command being a variable definition or constraint.
 2. Variable definition is in the following format:
 `var <variable_name> “:” <range_from> “..” <range_to> “;”`
@@ -19,7 +19,7 @@ An implementation to a solver that gets a list of variables with a range of defi
   - `<expression>` is some expression with the addition, subtraction and multiplication operations (+, -, *), with the usual order of operations (multiplication before addition         and subtraction), with left associativity, and with the option to put round parentheses (). 
     The atoms of the expression are non-negative integers `[0-9]+`, and variable names `[a-z]`. <br />
     
-**The output:** <br /><br />
+:arrow_left: **The output:** <br /><br />
 After the end of the file, the resolver must print all possible solutions, with one solution per line.<br />
 In each solution the names of the variables appear in alphabetical order, and the solutions are given in lexicographic order. If there is no solution, print `No solution`.<br /><br />
 :bangbang: **Errors:**<br />
