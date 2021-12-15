@@ -19,7 +19,7 @@ An implementation to a solver that gets a list of variables with a range of defi
   - `<expression>` is some expression with the addition, subtraction and multiplication operations (+, -, *), with the usual order of operations (multiplication before addition         and subtraction), with left associativity, and with the option to put round parentheses (). 
     The atoms of the expression are non-negative integers `[0-9]+`, and variable names `[a-z]`. <br />
     
-:arrow_left: **The output:** <br /><br />
+:arrow_left: **The output:** <br />
 - After the end of the file, the resolver must print all possible solutions, with one solution per line.<br />
 - In each solution the names of the variables appear in alphabetical order, and the solutions are given in lexicographic order. If there is no solution, print `No solution`.<br /><br />
 :bangbang: **Errors:**<br />
