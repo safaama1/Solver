@@ -2,11 +2,11 @@
 An implementation to a solver that gets a list of variables with a range of definitions and constraints, and finds all possible solutions. 
 For example the next pair of input and output:
 
-`var x : 0 .. 9;`          `x=0, y=3`
-`var y : 0 .. 9;`   ===>   `x=1, y=2`
-`x + y is 3;`              `x=3, y=0`
-`x - y is not 1;`
-
+`var x : 0 .. 9;`          `x=0, y=3`<br />
+`var y : 0 .. 9;`   ===>   `x=1, y=2`<br />
+`x + y is 3;`              `x=3, y=0`<br />
+`x - y is not 1;`<br />
+<br />
 The input of the solver is organized as follows:
 1. The input file contains 0 or more commands, with each command being a variable definition or constraint.
 2. Variable definition is in the following format:
